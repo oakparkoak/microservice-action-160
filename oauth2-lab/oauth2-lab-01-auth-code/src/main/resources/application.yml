@@ -1,0 +1,12 @@
+security:
+  user:
+    name: auser
+    password: apwd
+
+
+logging:
+  level:
+    root: WARN
+    org.springframework.web: INFO
+    org.springframework.security: INFO
+    org.springframework.security.oauth2: INFO
