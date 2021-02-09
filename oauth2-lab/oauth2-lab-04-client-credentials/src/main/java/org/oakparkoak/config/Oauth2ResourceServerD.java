@@ -8,11 +8,11 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.R
 /**
  * @package: org.oakparkoak.config
  * @author: Captain
- * @time: 2/4/2021 3:38 PM
+ * @time: 2/9/2021 3:38 PM
  */
 @Configuration
 @EnableResourceServer
-public class Oauth2ResourceServer extends ResourceServerConfigurerAdapter {
+public class Oauth2ResourceServerD extends ResourceServerConfigurerAdapter {
     @Override
     public void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()

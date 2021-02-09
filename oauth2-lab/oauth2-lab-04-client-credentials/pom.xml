@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>oauth2-lab-01-auth-code</artifactId>
+    <artifactId>oauth2-lab-04-client-credentials</artifactId>
 
     <dependencies>
         <dependency>

@@ -12,7 +12,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
  */
 @Configuration
 @EnableAuthorizationServer
-public class OAuth2AuthorizationServer extends AuthorizationServerConfigurerAdapter {
+public class OAuth2AuthorizationServerA extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()

@@ -13,6 +13,9 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>oauth2-lab-01-auth-code</module>
+        <module>oauth2-lab-01-authorization-code</module>
+        <module>oauth2-lab-02-password-credentials</module>
+        <module>oauth2-lab-03-implicit</module>
+        <module>oauth2-lab-04-client-credentials</module>
     </modules>
 </project>
