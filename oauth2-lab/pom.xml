@@ -17,5 +17,7 @@
         <module>oauth2-lab-02-password-credentials</module>
         <module>oauth2-lab-03-implicit</module>
         <module>oauth2-lab-04-client-credentials</module>
+        <module>oauth2-lab-05-code-authorization-client</module>
+        <module>oauth2-lab-05-code-authorization-server</module>
     </modules>
 </project>

@@ -1,0 +1,20 @@
+server:
+  port: 8081
+
+spring:
+  thymeleaf:
+    cache: false
+  datasource:
+    url: jdbc:h2:mem:test
+    username: sa
+    password: h2
+  # http://localhost:8081/h2-console
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      format_sql: true
+      dialect: org.hibernate.dialect.H2Dialect
+      ddl-auto: none
+    show-sql: true
