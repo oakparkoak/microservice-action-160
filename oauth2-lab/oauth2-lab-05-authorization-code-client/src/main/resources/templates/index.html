@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Client Page</title>
+</head>
+<body>
+  <h3>Get User Form 8080 Resource Server</h3>
+  <table>
+    <tr>
+        <td><b>name: </b></td>
+        <td th:text="${user.username}"></td>
+    </tr>
+    <tr>
+        <td><b>email: </b></td>
+        <td th:text="${user.email}"></td>
+    </tr>
+  </table>
+</body>
+</html>
